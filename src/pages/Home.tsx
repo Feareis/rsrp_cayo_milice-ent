@@ -41,13 +41,17 @@ const Home = () => {
       </div>
 
       {/* Deux colonnes (gauche/droite) */}
-      <main className="flex flex-row gap-8 px-8 py-8 my-8 justify-center">
-        <div className="w-[40%] bg-[#37474f] p-4 rounded-2xl shadow-2xl border border-gray-500">
+      <main className="flex flex-row gap-12 px-8 py-8 my-8 justify-center">
+        <div className="w-[30%] bg-[#37474f] p-4 rounded-2xl shadow-2xl border border-gray-500">
+          <p className="text-center text-2xl font-bold text-purple-300/80 py-2">Le Tabarico</p>
+          <div></div>
+        </div>
+        <div className="w-[30%] bg-[#37474f] p-4 rounded-2xl shadow-2xl border border-gray-500">
           <p className="text-center text-2xl font-bold text-cyan-300/80 py-2">La Cantina</p>
           <Table users={filteredCantina} />
         </div>
-        <div className="w-[40%] bg-[#37474f] p-4 rounded-2xl shadow-2xl border border-gray-500">
-          <p className="text-center text-2xl font-bold text-yellow-300/80 py-2">La Pericave</p>
+        <div className="w-[30%] bg-[#37474f] p-4 rounded-2xl shadow-2xl border border-gray-500">
+          <p className="text-center text-2xl font-bold text-amber-300/80 py-2">La Pericave</p>
           <Table users={filteredPericave} />
         </div>
       </main>
