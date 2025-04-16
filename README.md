@@ -1,13 +1,15 @@
 
 # [RSRP] Site - ENT Milice
 
-This project is a **modern web interface** that centralizes and displays **data from several databases**, via Supabase.  
-Ideal for aggregating scattered information and making it readable from a single access point.
-
-
-## 🖼️ Aperçu
-
-![App Screenshot](https://via.placeholder.com/468x300?text=App+Screenshot+Here)
+<p align=center>
+  <br>
+  <span>This project is a <strong>modern web interface</strong> that centralizes and displays <strong>data from several databases</strong>, via Supabase.</span>
+  <span>Ideal for aggregating scattered information and making it readable from a single access point.</span>
+  <br>
+  <br>
+  <img src="/ent-milice.png"/>
+  <br>
+</p>
 
 ## Tech Stack
 
